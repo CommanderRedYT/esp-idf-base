@@ -4,7 +4,7 @@ on:
   push:
 
 env:
-  FIRMWARE_BASE: repository/ # use something like repository/firmware in case this is a repo with other things like hardware
+  FIRMWARE_BASE: repository # use something like repository/firmware in case this is a repo with other things like hardware
 
 jobs:
   checkout:
