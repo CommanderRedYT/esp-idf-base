@@ -97,7 +97,7 @@ jobs:
 
       - name: Build firmware
         run: |
-          cd $FIRMWARE_BASE/firmware
+          cd $FIRMWARE_BASE
           ./esp-idf/install.sh
           . export.sh
           ./switchconf.sh ${{ matrix.node }}
